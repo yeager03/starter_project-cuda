@@ -1,0 +1,33 @@
+@mixin btn_hover_first()
+    &:hover
+        background-image: none
+        background-color: #b3892e
+
+@mixin sec_btn_hover()
+    &:hover
+        background-image: none
+        background-color: #0c8670
+
+@mixin focus_regist()
+    &:focus
+        transform: translateX(15px)
+        width: 95%
+        outline: 0
+        outline-offset: 0
+
+@mixin search_regist()
+    &:focus
+        transform: translateX(15px)
+        width: 95%
+        outline: 0
+        outline-offset: 0
+@mixin second_btn_hoov()
+    &:hover
+        opacity: .80
+        font-weight: bold
+        transform: scale(1.1)
+
+@mixin no_line()
+    &:focus
+        outline: 0
+        outline-offset: 0
